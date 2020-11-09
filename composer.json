@@ -1,0 +1,29 @@
+{
+  "name": "mb/basket",
+  "description": "This is the try to remove the oxdelivery out of the basket",
+  "type": "oxideshop-module",
+  "keywords": [
+    "oxid",
+    "modules",
+    "eShop"
+  ],
+  "homepage": "https://www.youtube.com/watch?v=JYmG7F44bTA",
+  "license": [],
+  "extra": {
+    "oxideshop": {
+      "blacklist-filter": [
+        "documentation/**/*.*"
+      ],
+      "target-directory": "mb/basket",
+      "source-directory": "src/"
+    }
+  },
+  "require": {
+    "php": ">=5.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "MB\\BASKET\\": "../../../source/modules/mb/basket"
+    }
+  }
+}
